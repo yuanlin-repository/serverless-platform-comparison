@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://172.167.92.49:8080
+functions:
+  fibonacci:
+    lang: java11
+    handler: ./fibonacci
+    image: yuanlin520/calculate-fibonacci:latest

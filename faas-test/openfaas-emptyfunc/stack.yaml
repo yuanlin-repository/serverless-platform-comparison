@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://172.167.92.49:8080
+functions:
+  emptyfunc:
+    lang: java11
+    handler: ./emptyfunc
+    image: yuanlin520/emptyfunc:latest
+
