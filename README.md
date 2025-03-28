@@ -84,7 +84,7 @@ Considering the actual latency experienced by users, a MacBook M3 laptop with 16
 
 Finally, the Apache JMeter tool was used to simulate performance under different concurrency scenarios. Specifically, setting 1, 10, 50, 100, and 500 concurrent threads to stress test the Fibonacci Function. Each concurrency level test lasted five minutes, and the average latency and throughput performance of function calls in each concurrency scenario were recorded to evaluate the actual performance of Azure Functions under high load conditions.
 
-## Results and evaluation
+# Results and evaluation
 
 The experimental results align well with previous research findings by Manner et al. (2018) and Dowd (2020), where cold-start latencies for JVM-based languages like Java were identified as considerably high, reflecting Azure Functions' higher cold-start latency. The latencies difference of Azure Functions between server-side and client-side confirms earlier findings in the literature that user-side latency can significantly exceed internally measured latency due to network overheads and client processing.
 
