@@ -1,0 +1,11 @@
+﻿Platform,Concurrency,Duration(min),Latency(ms),Throughput,Error Rate
+OpenFaaS,1,5,54,18,0
+OpenFaaS,10,5,52,189,0
+OpenFaaS,50,5,57,854,0
+OpenFaaS,100,5,65,1503,0
+OpenFaaS,500,5,231,2143,0
+Azure,1,5,143,7,0
+Azure,10,5,129,77,0
+Azure,50,5,130,385,0
+Azure,100,5,128,776,0
+Azure,500,5,178,2788,0
